@@ -10,5 +10,4 @@ fun main() {
     println(peopleAges.map { "${it.key} is ${it.value}" }.joinToString(", ") )
 
     val filteredNames = peopleAges.filter {it.key.length < 4}
-    println(filteredNames)
 }
